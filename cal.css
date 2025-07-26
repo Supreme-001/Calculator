@@ -1,0 +1,51 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    background-color: #e6edff;
+    border: #e6edff;
+    width: 80px;
+}
+
+.a-n{
+    background-color: #f4f5f6;
+    border: #f4f5f6;
+}
+.Cal-box{
+    max-width: 1200px;
+    margin: 20%  auto;
+    width: 100%;
+
+    transform: translate(-50% -50%);
+}
+
+input{
+    width: 450px;
+    height: 50px;
+}
+@media screen and (max-width:500px){
+    input{
+        width: 350px;
+        height: 50px;
+    }
+    button{
+        background-color: #e6edff;
+        border: #e6edff;
+        width: 65px;
+        
+    }
+}
+@media screen and (max-width:400px){
+    input{
+        width: 270px;
+        height: 50px;
+    }
+    button{
+        background-color: #e6edff;
+        border: #e6edff;
+        width: 50px;
+        
+    }
+}
